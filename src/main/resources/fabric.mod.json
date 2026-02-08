@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "practicemod",
+	"version": "${version}",
+	"name": "Practice Mod",
+	"description": "Shozab's first ever minecraft mod.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/shozabali06/my-first-minecraft-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/practicemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.shozab.practicemod.PracticeMod"
+		],
+		"fabric-datagen": [
+			"com.shozab.practicemod.PracticeModDataGenerator"
+		],
+		"client": [
+			"com.shozab.practicemod.PracticeModClient"
+		]
+
+	},
+	"mixins": [
+		"practicemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,5 +1,6 @@
 package com.shozab.practicemod;
 
+import com.shozab.practicemod.block.ModBlocks;
 import com.shozab.practicemod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class PracticeMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Hello Fabric world!");
 	}

@@ -1,6 +1,7 @@
 package com.shozab.practicemod;
 
 import com.shozab.practicemod.block.ModBlocks;
+import com.shozab.practicemod.item.ModItemGroups;
 import com.shozab.practicemod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class PracticeMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 

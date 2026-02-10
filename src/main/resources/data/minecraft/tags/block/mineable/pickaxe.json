@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "practicemod:pink_garnet_block",
+    "practicemod:raw_pink_garnet_block",
+    "practicemod:pink_garnet_ore",
+    "practicemod:pink_garnet_deepslate_ore"
+  ]
+}
